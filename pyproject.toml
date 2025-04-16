@@ -1,0 +1,14 @@
+[project]
+name = "freelance_sim"
+version = "0.1.0"
+description = "Simulateur financier pour indépendants : SASU, EURL, Auto-entrepreneur..."
+authors = [{ name = "Charles Dhainaut", email = "ch.dhainaut@gmail.com" }]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[project.scripts]
+freelance-sim = "freelance_sim.cli:main"
