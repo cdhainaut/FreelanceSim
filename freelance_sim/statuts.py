@@ -10,7 +10,7 @@ class Entreprise:
 
 
 class AutoEntrepreneur(Entreprise):
-    def __init__(self, chiffre_affaires, taux_micro_social=0.22, type_activite="BNC"):
+    def __init__(self, chiffre_affaires, taux_micro_social=0.24, type_activite="BNC"):
         super().__init__(chiffre_affaires)
         self.taux_micro_social = taux_micro_social
         self.type_activite = type_activite.upper()
